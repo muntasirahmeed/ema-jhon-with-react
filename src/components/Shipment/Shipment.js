@@ -51,7 +51,7 @@ const Shipment = () => {
             <label htmlFor="phone">Phone Number</label>
             <input onBlur={handlePhone} type="number" name="phone" required />
           </div>
-          <input className="submit-button" type="submit" value="Read to Ship" />
+          <input className="submit-button" type="submit" value="Ready to Ship" />
         </form>
       </div>
     </div>
