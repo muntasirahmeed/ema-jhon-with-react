@@ -1,0 +1,93 @@
+.container2 {
+  width: 500px;
+  height: 730px;
+  background: #ffffff;
+  border: 1px solid #95a0a7;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin: 50px auto;
+  padding: 40px;
+  box-shadow: -12px 12px 0 rgba(255, 153, 0, 0.3);
+}
+.title {
+  text-align: center;
+  color: #2A414F;
+}
+.input-group {
+  margin-bottom: 25px;
+}
+.input-group label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  color: #2A414F;
+}
+.input-group input {
+  width: 415px;
+  height: 55px;
+  font-size: 20px;
+  border-radius: 8px;
+  border: 1px solid gray;
+}
+.submit-button {
+  width: 420px;
+  height: 55px;
+  background: rgba(255, 153, 0, 0.3);
+  border-radius: 5px;
+  margin-top: 15px;
+  font-size: 20px;
+  border: none;
+    cursor: pointer;
+}
+.link-text{
+     text-align: center;
+     margin-top: 10px;
+     margin-bottom: 5px;
+}
+.link-text a{
+    color: #FF9900;
+    text-decoration: none;
+   
+}
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+.or-text{
+    margin: 0 20px ;
+    font-size: 20px;
+    color: #2A414F;
+
+}
+.line p{
+    height: 1px;
+    width: 150px;
+    background-color: #2A414F;
+}
+.google-signin img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+    
+}
+.google-signin{
+    background-color: white;
+    height: 55px;
+    width: 415px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #95a0a7;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.error{
+    color: red;
+    text-align: center;
+    margin: 0px;
+}
