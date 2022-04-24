@@ -12,3 +12,34 @@
     background-color: #ffe0b3;
     padding: 30px 20px;
 }
+.pagination{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 20px 0px;
+}
+.pagination button{
+    background-color: white;
+    border: 1px solid orange;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 8px;
+}
+.pagination .selected{
+    background-color: orange;
+ 
+}
+.pagination button:hover{
+    background-color: orange;
+    
+}
+@media only screen and (max-width: 992px) {
+    .product-container {
+        grid-template-columns: repeat(2,1fr);
+    }
+  }
+@media only screen and (max-width: 600px) {
+    .product-container {
+        grid-template-columns:1fr;
+    }
+  }
